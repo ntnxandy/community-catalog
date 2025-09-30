@@ -1,11 +1,13 @@
 # community-catalog
 
 apply this in your cluster
-NKP version 2.15
-NKP 2.16
+NKP version 2.15  
+ab NKP 2.16
 
 ```
 nkp create catalog-application -w komander-workspace --url https://github.com/ntnxandy/community-catalog.git
+```
+
 ```
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
