@@ -1,7 +1,12 @@
 # community-catalog
 
 apply this in your cluster
-NKP version 2.15  
+NKP version 2.15 
+
+```
+nkp create catalog demo-apps-catalog -w kommander-workspace --branch main --url https://github.com/ntnxandy/community-catalog.git
+```
+
 ab NKP 2.16
 
 ```
